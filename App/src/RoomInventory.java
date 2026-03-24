@@ -15,9 +15,9 @@ roomAvailability=new HashMap<>();
 initializeInventory();
     }
     private void initializeInventory(){
-        roomAvailability.put("Single room",5);
-        roomAvailability.put("Double room",3);
-        roomAvailability.put("Suite room",2);
+        roomAvailability.put("Single",5);
+        roomAvailability.put("Double",3);
+        roomAvailability.put("Suite",2);
     }
     public Map<String,Integer> getRoomAvailability(){
         return roomAvailability;
